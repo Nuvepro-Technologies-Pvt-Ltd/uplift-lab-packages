@@ -1,0 +1,19 @@
+{
+  "taskId": "1",
+  "moduleNumber": 1,
+  "sandboxConfig": {
+    "environment": "browser-workspace",
+    "tools": [
+      {
+        "name": "Python",
+        "purpose": "Build the deterministic nightly regression recovery record."
+      },
+      {
+        "name": "pytest",
+        "purpose": "Run the frozen automated validation suite."
+      }
+    ],
+    "preloadFiles": []
+  },
+  "moduleHash": "4f896aa9"
+}
